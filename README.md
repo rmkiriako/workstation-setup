@@ -94,6 +94,32 @@ When working in a [pair programming](https://en.wikipedia.org/wiki/Pair_programm
    export GIT_DUET_ROTATE_AUTHOR=1   
    ```
 
+* IntelliJ Configuration
+
+   In order for IntelliJ to be able to use `git duet` to commit changes, you'll have to use a [custom script](./intellij-git-duet-wrapper.sh) to intercept calls to `git commit` and have it use `git duet-commit` instead.
+
+   This script was inspired by [a RubyMine wrapper script](https://github.com/git-duet/git-duet/blob/master/scripts/rubymine-git-wrapper) that is maintained inside the public `git-duet` source.
+
+   Run the below to copy the script into the `/usr/local/bin` directory:
+
+   
+   ```
+   $ cd ~/workspace/workstation-setup
+   $ cp intellij-git-duet-wrapper.sh /usr/bin/intellij-git-duet-wrapper.sh
+   ```
+
+   In order to have IntelliJ use this script, you'll have to:
+
+   1) Open IntelliJ
+   
+   2) Go to Preferences
+   
+   3) Click on and expand the "Version Control" menu option
+   
+   4) Select "Git"
+   
+   5) Set the *"Path to Git executable"* to `/usr/local/bin/intellij-git-duet-wrapper.sh`
+
 * Maintenance:
 
    * As new members get added to your project, you'll need to update the `.git-authors` file accordingly
