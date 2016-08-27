@@ -178,7 +178,7 @@ It is a requirement to install Bash-it before moving on (see above instructions 
 
 #### [Oracle SQL Developer](http://www.oracle.com/technetwork/developer-tools/sql-developer/what-is-sqldev-093866.html)
 
-* At this time, it is not possible to install this through [Homebrew](http://brew.sh), so you will have to [download it from Oracle](http://www.oracle.com/technetwork/developer-tools/sql-developer/overview/index.html) and install it manually
+* At this time, it is not possible to install this through [Homebrew](http://brew.sh), so you will have to [download it from Oracle](http://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html) and install it manually
 
 #### Pivotal Customizations for iTerm2
 
