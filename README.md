@@ -21,8 +21,8 @@ To install, simply open up the OS X Terminal and run the following commands:
 ```
 $ mkdir -p ~/workspace
 $ cd ~/workspace
-$ git clone https://github.com/rmkiriako/workstation-setup.git
-$ cd workstation-setup
+$ git clone https://github.com/rmkiriako/workstation-setup-mac.git
+$ cd workstation-setup-mac
 $ ./setup.sh
 ```
 
@@ -67,7 +67,8 @@ Bash-it is a collection of community Bash commands and scripts that help ease fo
 * A couple of aliases that I use frequently can be installed by running the below command: 
 
    ```
-   $ cd ~/workspace/workstation-setup
+   $ cd ~/workspace
+   $ cd workstation-setup-mac
    $ ./setup-git-aliases.sh
    ```
 
@@ -88,7 +89,7 @@ When working in a [pair programming](https://en.wikipedia.org/wiki/Pair_programm
 
    ```
    # .git-authors file for workspace-setup project
-   export GIT_DUET_AUTHORS_FILE=~/workspace/workstation-setup/.git-authors
+   export GIT_DUET_AUTHORS_FILE=~/workspace/workstation-setup-mac/.git-authors
    
    # rotate git author/committer on each commit
    export GIT_DUET_ROTATE_AUTHOR=1   
@@ -104,8 +105,9 @@ When working in a [pair programming](https://en.wikipedia.org/wiki/Pair_programm
 
    
    ```
-   $ cd ~/workspace/workstation-setup
-   $ cp intellij-git-duet-wrapper.sh /usr/bin/intellij-git-duet-wrapper.sh
+   $ cd ~/workspace
+   $ cd workstation-setup-mac
+   $ cp intellij-git-duet-wrapper.sh /usr/local/bin/intellij-git-duet-wrapper.sh
    ```
 
    In order to have IntelliJ use this script, you'll have to:
@@ -146,7 +148,8 @@ It is a requirement to install Bash-it before moving on (see above instructions 
 
    ```
    $ cd ~/workspace
-   $ cp workstation-setup/bash-it-cusomizations/json_pretty_print.bash ~/.bash_it/custom/json_pretty_print.bash
+   $ cd workstation-setup-mac
+   $ cp bash-it-cusomizations/json_pretty_print.bash ~/.bash_it/custom/json_pretty_print.bash
    $ source ~/.bash_profile
    ```
 
@@ -187,14 +190,16 @@ It is a requirement to install Bash-it before moving on (see above instructions 
 
    ```
    $ cd ~/workspace
-   $ cp workstation-setup/pivotal-bash-it-customizations/bobby_pivotal.theme.bash ~/.bash_it/themes/bobby/bobby.theme.bash
+   $ cd workstation-setup-mac
+   $ cp pivotal-bash-it-customizations/bobby_pivotal.theme.bash ~/.bash_it/themes/bobby/bobby.theme.bash
    ```
 
 * Setting `git` Author in Shell Prompt
 
    ```
    $ cd ~/workspace
-   $ cp workstation-setup/pivotal-bash-it-customizations/add_user_initials_to_git_prompt_info.bash ~/.bash_it/custom/add_user_initials_to_git_prompt_info.bash
+   $ cd workstation-setup-mac
+   $ cp pivotal-bash-it-customizations/add_user_initials_to_git_prompt_info.bash ~/.bash_it/custom/add_user_initials_to_git_prompt_info.bash
    ```
    
 After exccuting the above commands, re-start iTerm to see the changes
