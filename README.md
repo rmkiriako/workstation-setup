@@ -259,6 +259,7 @@ After exccuting the above commands, re-start iTerm to see the changes
 ### Media
 
 * 4K Video Downloader
+* Flash Player
 * Soundflower
 * VLC
 
