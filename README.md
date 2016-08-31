@@ -191,6 +191,22 @@ It is a requirement to install Bash-it before moving on (see above instructions 
 
 After exccuting the above commands, re-start iTerm to see the changes
 
+#### [Readline Init File](https://www.gnu.org/software/bash/manual/html_node/Readline-Init-File.html)
+
+You can add keybindings to the [Readline library](https://en.wikipedia.org/wiki/GNU_Readline) that make command line use much easier via a `.inputrc` file.
+
+Binding the up/down arrow keys to the command history can prove helpful in order to autocomplete a command that was previously typed.
+
+This functionality is configured in a `.inputrc` file [here](.inputrc).
+
+To add this on a fresh installation, copy this file to your home directory by running:
+
+```
+$ cd ~/workspace
+$ cd workstation-setup-mac
+$ cp .inputrc ~/.inputrc
+```
+
 ## What's Installed?
 
 ### Browsers

@@ -1,0 +1,6 @@
+# case insensitive search
+set completion-ignore-case on
+
+# bind up/down arrows to search for history entries
+"\e[A":history-search-backward
+"\e[B":history-search-forward
