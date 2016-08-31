@@ -64,6 +64,21 @@ Bash-it is a collection of community Bash commands and scripts that help ease fo
    $ source ~/.bash_profile
    ```
 
+#### [dos2unix / unix2dos](http://dos2unix.sourceforge.net)
+
+Sometimes it is necessary to convert line breaks in a text file from Unix format (line feed) to DOS format (carriage return + line feed).
+
+This functionality is not built into Mac OS X by default but can be added by running:
+
+```
+$ brew install dos2unix
+```
+
+This will install two commands:
+
+* `dos2unix`: to convert from DOS format to Unix format
+* `unix2dos`: to convert from Unix format to DOS format
+
 #### [Git Aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases)
 
 * A couple of aliases that I use frequently can be installed by running the below command: 
