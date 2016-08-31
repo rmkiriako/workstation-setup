@@ -6,6 +6,8 @@ It was inspired by work done on [Pivotal Labs' Workstation Setup](https://github
 
 I created this fork of that project because the Pivotal Workstation Setup is very opinionated on configuration settings and will **override** certain configurations (e.g. my `vim` configurations)
 
+You can see what gets installed by default [here](#whats-installed) and a list of optional installs that may prove beneficial [here](#optional-installs)
+
 ## Pre-Requisites
 
 In order to use this, you will need:
@@ -186,7 +188,7 @@ It is a requirement to install Bash-it before moving on (see above instructions 
    $ cd workstation-setup-mac
    $ cp pivotal-bash-it-customizations/add_user_initials_to_git_prompt_info.bash ~/.bash_it/custom/add_user_initials_to_git_prompt_info.bash
    ```
-   
+
 After exccuting the above commands, re-start iTerm to see the changes
 
 ## What's Installed?
