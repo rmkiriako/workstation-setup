@@ -38,7 +38,7 @@ $ ./setup.sh
 
 After installing, you may notice that the installed `git` version **is not** what you'd expect, the latest version of `git`.
    
-This is because Apple includes an installation of `git` at `/usr/bin/git` and this gets resolved first.
+This is because Apple includes an installation of `git` at `/usr/bin/git` and that gets resolved first.
 
 In order to make sure you're using the `git` version that was pulled down in the installation, you'll have to edit `~/.bash_profile` to include:
 
