@@ -50,7 +50,7 @@ This ensures that the `/usr/local/bin` directory is searched first, which is whe
 
 ## Optional Installs
 
-### [Bash-it](https://github.com/Bash-it/bash-it)
+#### [Bash-it](https://github.com/Bash-it/bash-it)
 
 Bash-it is a collection of community Bash commands and scripts that help ease for your daily work
 
@@ -160,21 +160,6 @@ It is a requirement to install Bash-it before moving on (see above instructions 
    ```
    $ cat file.json | json
    ```
-
-#### Microsoft Office for Mac
-
-* 2011: 
-
-   ```
-   $ brew cask install caskroom/versions/microsoft-office-2011
-   ```
-
-* 2016:
-
-   ```
-   $ brew cask install microsoft-office
-   ```
-    
 
 #### [Oracle SQL Developer](http://www.oracle.com/technetwork/developer-tools/sql-developer/what-is-sqldev-093866.html)
 
