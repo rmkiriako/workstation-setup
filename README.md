@@ -81,13 +81,13 @@ This will install two commands:
 
 #### [Git Aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases)
 
-* A couple of aliases that I use frequently can be installed by running the below command: 
+A couple of aliases that I use frequently can be installed by running the below command: 
 
-   ```
-   $ cd ~/workspace
-   $ cd workstation-setup-mac
-   $ ./setup-git-aliases.sh
-   ```
+```
+$ cd ~/workspace
+$ cd workstation-setup-mac
+$ ./setup-git-aliases.sh
+```
 
 #### [Git Duet](https://github.com/git-duet/git-duet)
 
