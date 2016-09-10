@@ -102,11 +102,11 @@ When working in a [pair programming](https://en.wikipedia.org/wiki/Pair_programm
    brew install git-duet
    ```
 
-   * Update your `~/.bash_profile` to include the below lines (replacing the location of [this project's .git-authors file](./.git-authors) with the location of whichever project you're working on):
+   * Update your `~/.bash_profile` to include the below lines:
 
    ```
-   # .git-authors file for workspace-setup project
-   export GIT_DUET_AUTHORS_FILE=~/workspace/workstation-setup-mac/.git-authors
+   # .git-authors file for your project
+   export GIT_DUET_AUTHORS_FILE=<project-path>/.git-authors
    
    # rotate git author/committer on each commit
    export GIT_DUET_ROTATE_AUTHOR=1   
