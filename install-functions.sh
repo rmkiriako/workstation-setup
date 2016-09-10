@@ -59,7 +59,7 @@ function install_markdown_editor() {
 
 function install_media_tools() {
     brew cask install 4k-video-downloader
-    brew cask install flash-player
+    brew cask install flash
     brew cask install soundflower
     brew cask install vlc
 }
