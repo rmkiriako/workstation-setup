@@ -8,6 +8,7 @@ function install_browsers() {
 function install_cd_and_dvd_tools() {
     brew cask install burn
     brew cask install dvdstyler
+    brew cask install handbrake
 }
 
 function install_cloudfoundry_cli() {

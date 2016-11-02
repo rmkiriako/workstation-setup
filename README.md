@@ -233,6 +233,7 @@ $ cp .inputrc ~/.inputrc
 
 * Burn
 * DVD Styler
+* Handbrake
 
 ### Cloud
 
