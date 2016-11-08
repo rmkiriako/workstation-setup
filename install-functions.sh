@@ -75,7 +75,7 @@ function install_source_code_management_tools() {
     brew cask install sourcetree
 }
 
-function install_terminal_utilities() {
+function install_terminal_commands() {
     brew install the_silver_searcher
     brew install wget
 }
