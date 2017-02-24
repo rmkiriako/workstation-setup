@@ -151,33 +151,6 @@ When working in a [pair programming](https://en.wikipedia.org/wiki/Pair_programm
 
    * As you get ready to commit changes throughout the day, use the command `git duet-commit` and type your commit message as normal
 
-#### JSON Pretty Print Terminal Command
-
-When working in the terminal and making `curl` commands to an API that returns `JSON`, it really helps to be able to quickly format that `JSON` in the terminal as opposed to having to go use a site like [jsonprettyprint.com](http://jsonprettyprint.com).
-
-I've created a custom Bash-it script that will add the alias `json` which you can pipe some JSON input to and have it format it.
-
-This is just a simple wrapper around a Python command where you pipe your input to `python -m json.tool` but having an alias around that can prove useful.
-
-It is a requirement to install Bash-it before moving on (see above instructions for the optional Bash-it installation)
-
-* Installation:
-
-   ```
-   $ cd ~/workspace
-   $ cd workstation-setup-mac
-   $ cp bash-it-cusomizations/json_pretty_print.bash ~/.bash_it/custom/json_pretty_print.bash
-   $ source ~/.bash_profile
-   ```
-
-* Usage:
-   * Get some JSON content, perhaps as the output of a `curl` command
-   * Pipe your JSON content to the `json` alias:
-
-   ```
-   $ cat file.json | json
-   ```
-
 #### [Oracle SQL Developer](http://www.oracle.com/technetwork/developer-tools/sql-developer/what-is-sqldev-093866.html)
 
 * At this time, it is not possible to install this through [Homebrew](http://brew.sh), so you will have to [download it from Oracle](http://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html) and install it manually
