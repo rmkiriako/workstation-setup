@@ -89,6 +89,7 @@ function install_utilities() {
     brew cask install 1password
     brew cask install flycut
     brew cask install iterm2
+    brew cask install jiggler
     brew cask install postman
     brew cask install rightzoom
     brew cask install shiftit

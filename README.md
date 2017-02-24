@@ -289,6 +289,7 @@ $ cp .inputrc ~/.inputrc
 * 1Password
 * Flycut
 * iTerm 2
+* Jiggler
 * Postman
 * RightZoom	
 * ShiftIt
