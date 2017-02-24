@@ -65,6 +65,13 @@ function install_media_tools() {
     brew cask install vlc
 }
 
+function install_network_tools() {
+    npm install newman --global;
+
+    brew cask install postman
+    brew cask install wireshark
+}
+
 function install_pdf_tools() {
     brew cask install pdfsam-basic
 }
@@ -90,7 +97,6 @@ function install_utilities() {
     brew cask install flycut
     brew cask install iterm2
     brew cask install jiggler
-    brew cask install postman
     brew cask install rightzoom
     brew cask install shiftit
 }

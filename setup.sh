@@ -37,6 +37,9 @@ install_markdown_editor
 banner "Installing Media Tools"
 install_media_tools
 
+banner "Installing Network Tools"
+install_network_tools
+
 banner "Installing PDF Tools"
 install_pdf_tools
 

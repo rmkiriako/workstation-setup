@@ -265,6 +265,12 @@ $ cp .inputrc ~/.inputrc
 * Soundflower
 * VLC
 
+### Network Tools
+
+* Newman
+* Postman
+* Wireshark
+
 ### PDF
 
 * PDF Split and Merge
@@ -290,7 +296,6 @@ $ cp .inputrc ~/.inputrc
 * Flycut
 * iTerm 2
 * Jiggler
-* Postman
 * RightZoom	
 * ShiftIt
 
