@@ -84,6 +84,7 @@ function install_source_code_management_tools() {
 
 function install_terminal_commands() {
     brew install the_silver_searcher
+    brew install unrar
     brew install wget
 }
 
@@ -99,6 +100,7 @@ function install_utilities() {
     brew cask install jiggler
     brew cask install rightzoom
     brew cask install shiftit
+    brew cask install unrarx
 }
 
 function install_virtualization_tools() {

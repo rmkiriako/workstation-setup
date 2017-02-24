@@ -288,6 +288,7 @@ $ cp .inputrc ~/.inputrc
 ### Terminal Commands 
 
 * ag
+* unrar
 * wget
 
 ### Utilities
@@ -298,6 +299,7 @@ $ cp .inputrc ~/.inputrc
 * Jiggler
 * RightZoom	
 * ShiftIt
+* UnrarX
 
 ### Virtualization
 
