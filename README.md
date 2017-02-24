@@ -79,6 +79,16 @@ This will install two commands:
 * `dos2unix`: to convert from DOS format to Unix format
 * `unix2dos`: to convert from Unix format to DOS format
 
+#### [direnv](https://direnv.net)
+
+This allows you to create a `.envrc` file to set environment variables while you're in that directory. When you navigate out of that directory they are automatically unset.
+
+```
+$ cd ~/workspace
+$ cd workstation-setup-mac
+$ cp bash-it-customizations/direnv.bash ~/.bash_it/custom/direnv.bash
+```
+
 #### [Git Aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases)
 
 A couple of aliases that I use frequently can be installed by running the below command: 
