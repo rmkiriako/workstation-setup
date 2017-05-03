@@ -50,6 +50,7 @@ function install_java_and_tools() {
     brew cask install java
     brew cask install intellij-idea
 
+    brew install ant
     brew install gradle
     brew install maven
 }
