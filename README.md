@@ -49,6 +49,13 @@ export PATH="/usr/local/bin:$PATH"
 
 This ensures that the `/usr/local/bin` directory is searched first, which is where the `git` that's installeed through the `setup.sh` script is put.
 
+### Setup `vim` as the `git` Editor
+
+Run the below command to set `vim` as the preferred `git` editor:
+
+```
+git config --global core.editor "vim"
+```
 
 ## Optional Installs
 
