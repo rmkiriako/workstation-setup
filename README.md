@@ -228,6 +228,7 @@ $ cp .inputrc ~/.inputrc
 ### Cloud
 
 * Cloud Foundry CLI
+* Heroku CLI
 
 ### Communication
 

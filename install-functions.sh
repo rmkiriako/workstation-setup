@@ -11,9 +11,11 @@ function install_cd_and_dvd_tools() {
     brew cask install handbrake
 }
 
-function install_cloudfoundry_cli() {
+function install_cloud_tools() {
     brew tap cloudfoundry/tap
     brew install cf-cli
+
+    brew install heroku
 }
 
 function install_communication_tools() {

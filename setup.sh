@@ -13,8 +13,8 @@ install_browsers
 banner "Installing CD/DVD Tools"
 install_cd_and_dvd_tools
 
-banner "Installing CloudFoundry CLI"
-install_cloudfoundry_cli
+banner "Installing Cloud Tools"
+install_cloud_tools
 
 banner "Installing Communication Tools"
 install_communication_tools
