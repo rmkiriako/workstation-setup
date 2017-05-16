@@ -6,8 +6,6 @@ It was inspired by work done on [Pivotal Labs' Workstation Setup](https://github
 
 I created this fork of that project because the Pivotal Workstation Setup is very opinionated on configuration settings and will **override** certain configurations (e.g. my `vim` configurations)
 
-You can see what gets installed by default [here](#whats-installed) and a list of optional installs that may prove beneficial [here](#optional-installs)
-
 
 ## Pre-Requisites
 
@@ -22,11 +20,11 @@ In order to use this, you will need:
 To install, simply open up the OS X Terminal and run the following commands:
  
 ```
-$ mkdir -p ~/workspace
-$ cd ~/workspace
-$ git clone https://github.com/rmkiriako/workstation-setup-mac.git
-$ cd workstation-setup-mac
-$ ./setup.sh
+mkdir -p ~/workspace
+cd ~/workspace
+git clone https://github.com/rmkiriako/workstation-setup-mac.git
+cd workstation-setup-mac
+./setup.sh
 ```
 
 **IMPORTANT:**

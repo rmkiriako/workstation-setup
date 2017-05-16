@@ -7,9 +7,9 @@ Bash-it is a collection of community Bash commands and scripts that help ease fo
 * Installation:
    
    ```
-   $ git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
-   $ ~/.bash_it/install.sh
-   $ source ~/.bash_profile
+   git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
+   ~/.bash_it/install.sh
+   source ~/.bash_profile
    ```
 
 #### [dos2unix / unix2dos](http://dos2unix.sourceforge.net)
@@ -19,7 +19,7 @@ Sometimes it is necessary to convert line breaks in a text file from Unix format
 This functionality is not built into Mac OS X by default but can be added by running:
 
 ```
-$ brew install dos2unix
+brew install dos2unix
 ```
 
 This will install two commands:
@@ -32,9 +32,9 @@ This will install two commands:
 This allows you to create a `.envrc` file to set environment variables while you're in that directory. When you navigate out of that directory they are automatically unset.
 
 ```
-$ cd ~/workspace
-$ cd workstation-setup-mac
-$ cp bash-it-customizations/direnv.bash ~/.bash_it/custom/direnv.bash
+cd ~/workspace
+cd workstation-setup-mac
+cp bash-it-customizations/direnv.bash ~/.bash_it/custom/direnv.bash
 ```
 
 #### [Git Aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases)
@@ -42,9 +42,9 @@ $ cp bash-it-customizations/direnv.bash ~/.bash_it/custom/direnv.bash
 A couple of aliases that I use frequently can be installed by running the below command: 
 
 ```
-$ cd ~/workspace
-$ cd workstation-setup-mac
-$ ./setup-git-aliases.sh
+cd ~/workspace
+cd workstation-setup-mac
+./setup-git-aliases.sh
 ```
 
 #### [Git Duet](https://github.com/git-duet/git-duet)
@@ -80,9 +80,9 @@ When working in a [pair programming](https://en.wikipedia.org/wiki/Pair_programm
 
    
    ```
-   $ cd ~/workspace
-   $ cd workstation-setup-mac
-   $ cp intellij-git-duet-wrapper.sh /usr/local/bin/intellij-git-duet-wrapper.sh
+   cd ~/workspace
+   cd workstation-setup-mac
+   cp intellij-git-duet-wrapper.sh /usr/local/bin/intellij-git-duet-wrapper.sh
    ```
 
    In order to have IntelliJ use this script, you'll have to:
@@ -122,17 +122,17 @@ It is a requirement to install Bash-it before moving on (see above instructions 
 * Setting up Pivotal iTerm Colors
 
    ```
-   $ cd ~/workspace
-   $ cd workstation-setup-mac
-   $ cp pivotal-bash-it-customizations/bobby_pivotal.theme.bash ~/.bash_it/themes/bobby/bobby.theme.bash
+   cd ~/workspace
+   cd workstation-setup-mac
+   cp pivotal-bash-it-customizations/bobby_pivotal.theme.bash ~/.bash_it/themes/bobby/bobby.theme.bash
    ```
 
 * Setting `git` Author in Shell Prompt
 
    ```
-   $ cd ~/workspace
-   $ cd workstation-setup-mac
-   $ cp pivotal-bash-it-customizations/add_user_initials_to_git_prompt_info.bash ~/.bash_it/custom/add_user_initials_to_git_prompt_info.bash
+   cd ~/workspace
+   cd workstation-setup-mac
+   cp pivotal-bash-it-customizations/add_user_initials_to_git_prompt_info.bash ~/.bash_it/custom/add_user_initials_to_git_prompt_info.bash
    ```
 
 After exccuting the above commands, re-start iTerm to see the changes
@@ -148,7 +148,13 @@ This functionality is configured in a `.inputrc` file [here](.inputrc).
 To add this on a fresh installation, copy this file to your home directory by running:
 
 ```
-$ cd ~/workspace
-$ cd workstation-setup-mac
-$ cp .inputrc ~/.inputrc
+cd ~/workspace
+cd workstation-setup-mac
+cp .inputrc ~/.inputrc
 ```
+
+#### Windows on a Mac
+
+Occasionally, you will need to use Windows or Internet Explorer, and the easiest way to do this is to install a Windows virtual machine that has Internet Explorer on it.
+
+You can see detailed instructions on this [here](./windows-installation-instructions/INSTALL_WINDOWS.md)
