@@ -157,4 +157,4 @@ cp .inputrc ~/.inputrc
 
 Occasionally, you will need to use Windows or Internet Explorer, and the easiest way to do this is to install a Windows virtual machine that has Internet Explorer on it.
 
-You can see detailed instructions on this [here](./windows-installation-instructions/INSTALL_WINDOWS.md)
+You can see detailed instructions on this [here](./windows-installation-instructions/Installing_Windows_On_Mac.pdf)
