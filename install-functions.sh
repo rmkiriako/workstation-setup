@@ -27,14 +27,14 @@ function install_communication_tools() {
 }
 
 function install_database_tools() {
-   brew cask install robomongo
+   brew cask install robo-3t
    brew cask install squirrelsql
 }
 
 function install_file_sharing_tools() {
     brew cask install dropbox
     brew cask install filezilla
-    brew cask install google-drive
+    brew cask install google-backup-and-sync
 }
 
 function install_homebrew() {
@@ -63,7 +63,7 @@ function install_markdown_editor() {
 
 function install_media_tools() {
     brew cask install 4k-video-downloader
-    brew cask install flash
+    brew cask install flash-npapi
     brew cask install soundflower
     brew cask install vlc
 }
@@ -101,7 +101,6 @@ function install_utilities() {
     brew cask install flycut
     brew cask install iterm2
     brew cask install jiggler
-    brew cask install rightzoom
     brew cask install shiftit
     brew cask install unrarx
 }

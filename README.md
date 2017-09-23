@@ -74,14 +74,14 @@ A non-exhaustive list of items can be seen [here](./OPTIONAL_INSTALLS.md)
 
 ### Database
 
-* RoboMongo MongoDB Client	
+* Robo-3T (formerly RoboMongo) MongoDB Client	
 * SQuirreL SQL Client
 
 ### File Sharing
 
 * Dropbox
 * FileZilla
-* Google Drive
+* Google Backup and Sync
 
 ### Java Development
 
@@ -140,7 +140,6 @@ A non-exhaustive list of items can be seen [here](./OPTIONAL_INSTALLS.md)
 * Flycut
 * iTerm 2
 * Jiggler
-* RightZoom	
 * ShiftIt
 * UnrarX
 
