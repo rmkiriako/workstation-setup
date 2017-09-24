@@ -16,6 +16,7 @@ function install_cloud_tools() {
     brew install cf-cli
 
     brew install heroku
+    heroku plugins:install heroku-cli-deploy
 }
 
 function install_communication_tools() {
