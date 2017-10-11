@@ -28,6 +28,7 @@ function install_communication_tools() {
 }
 
 function install_database_tools() {
+   brew cask install pgadmin4
    brew cask install robo-3t
    brew cask install squirrelsql
 }
