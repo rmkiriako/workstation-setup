@@ -17,6 +17,7 @@ function install_cloud_tools() {
 
     brew install heroku
     heroku plugins:install heroku-cli-deploy
+    heroku plugins:install heroku-pg-extras
 }
 
 function install_communication_tools() {
