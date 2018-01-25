@@ -119,6 +119,10 @@ A non-exhaustive list of items can be seen [here](./OPTIONAL_INSTALLS.md)
 
 * PDF Split and Merge
 
+### Python
+
+* PyCharm IDE
+
 ### Source Code Management
 
 * Git

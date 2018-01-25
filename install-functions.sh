@@ -82,6 +82,10 @@ function install_pdf_tools() {
     brew cask install pdfsam-basic
 }
 
+function install_python_tools() {
+    brew cask install pycharm
+}
+
 function install_source_code_management_tools() {
     brew install git
 
