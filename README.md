@@ -137,6 +137,7 @@ A non-exhaustive list of items can be seen [here](./OPTIONAL_INSTALLS.md)
 ### Terminal Commands 
 
 * ag
+* jq
 * unrar
 * wget
 

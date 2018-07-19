@@ -95,6 +95,7 @@ function install_source_code_management_tools() {
 
 function install_terminal_commands() {
     brew install the_silver_searcher
+    brew install jq
     brew install unrar
     brew install wget
 }
