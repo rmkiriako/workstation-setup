@@ -22,6 +22,7 @@ function install_cloud_tools() {
 
 function install_communication_tools() {
     brew cask install cord
+    brew cask install messenger
     brew cask install screenhero
     brew cask install skype
     brew cask install slack

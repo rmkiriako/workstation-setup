@@ -67,6 +67,7 @@ A non-exhaustive list of items can be seen [here](./OPTIONAL_INSTALLS.md)
 ### Communication
 
 * CoRD
+* Facebook Messenger
 * Screenhero
 * Slack
 * Skype
