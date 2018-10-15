@@ -49,8 +49,16 @@ function install_homebrew() {
 function install_javascript_tools() {
     brew install node
 
+    # http://dev.topheman.com/install-nvm-with-homebrew-to-use-multiple-versions-of-node-and-iojs-easily
+    brew install nvm
+    mkdir ~/.nvm
+    echo "export NVM_DIR=~/.nvm" >> ~/.bash_profile
+    source $(brew --prefix nvm)/nvm.sh
+
     npm install --global grunt-cli
     npm install --global gulp-cli
+
+    brew install webstorm
 }
 
 function install_java_and_tools() {
@@ -86,6 +94,7 @@ function install_pdf_tools() {
 
 function install_python_tools() {
     brew cask install pycharm
+    brew install python3
 }
 
 function install_source_code_management_tools() {

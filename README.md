@@ -99,6 +99,8 @@ A non-exhaustive list of items can be seen [here](./OPTIONAL_INSTALLS.md)
 * Grunt
 * Gulp
 * NodeJS
+* Node Version Manager (`nvm`)
+* WebStorm
 
 ### Markdown Editor
 
@@ -124,6 +126,7 @@ A non-exhaustive list of items can be seen [here](./OPTIONAL_INSTALLS.md)
 ### Python
 
 * PyCharm IDE
+* Python 3
 
 ### Source Code Management
 
