@@ -85,6 +85,7 @@ function install_network_tools() {
     npm install newman --global;
 
     brew cask install postman
+    brew cask install tunnelblick
     brew cask install wireshark
 }
 

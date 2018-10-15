@@ -117,6 +117,7 @@ A non-exhaustive list of items can be seen [here](./OPTIONAL_INSTALLS.md)
 
 * Newman
 * Postman
+* Tunnelblick VPN Client
 * Wireshark
 
 ### PDF
