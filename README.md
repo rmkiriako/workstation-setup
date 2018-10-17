@@ -76,7 +76,8 @@ A non-exhaustive list of items can be seen [here](./OPTIONAL_INSTALLS.md)
 ### Database
 
 * pgAdmin4 Management Tools for PostgreSQL
-* Robo-3T (formerly RoboMongo) MongoDB Client	
+* Postgres
+* Robo-3T (formerly RoboMongo) MongoDB Client
 * SQuirreL SQL Client
 
 ### File Sharing

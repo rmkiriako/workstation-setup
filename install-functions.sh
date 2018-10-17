@@ -30,9 +30,10 @@ function install_communication_tools() {
 }
 
 function install_database_tools() {
-   brew cask install pgadmin4
-   brew cask install robo-3t
-   brew cask install squirrelsql
+    brew cask install pgadmin4
+    brew install postgresql
+    brew cask install robo-3t
+    brew cask install squirrelsql
 }
 
 function install_file_sharing_tools() {
