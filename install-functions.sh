@@ -50,11 +50,8 @@ function install_homebrew() {
 function install_javascript_tools() {
     brew install node
 
-    # http://dev.topheman.com/install-nvm-with-homebrew-to-use-multiple-versions-of-node-and-iojs-easily
-    brew install nvm
-    mkdir ~/.nvm
-    echo "export NVM_DIR=~/.nvm" >> ~/.bash_profile
-    source $(brew --prefix nvm)/nvm.sh
+    # Install nvm directly from Github install script
+    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 
     npm install --global grunt-cli
     npm install --global gulp-cli
