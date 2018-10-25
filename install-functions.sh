@@ -56,12 +56,12 @@ function install_javascript_tools() {
     npm install --global grunt-cli
     npm install --global gulp-cli
 
-    brew install webstorm
+    brew cask install https://raw.githubusercontent.com/Homebrew/homebrew-cask/8559c56efe642de0449afbc093363b2265ce68a9/Casks/webstorm.rb
 }
 
 function install_java_and_tools() {
     brew cask install java
-    brew cask install intellij-idea
+    brew cask install https://raw.githubusercontent.com/Homebrew/homebrew-cask/bf26136bf37d8a505361c973f583ceaa2d5b960c/Casks/intellij-idea.rb
 
     brew install ant
     brew install gradle
@@ -92,7 +92,7 @@ function install_pdf_tools() {
 }
 
 function install_python_tools() {
-    brew cask install pycharm
+    brew cask install brew cask install https://raw.githubusercontent.com/Homebrew/homebrew-cask/1430bcfbd32ef3e12b151d839f251566517f5f50/Casks/pycharm.rb
     brew install python3
 }
 

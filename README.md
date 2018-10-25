@@ -91,7 +91,7 @@ A non-exhaustive list of items can be seen [here](./OPTIONAL_INSTALLS.md)
 
 * Ant
 * Gradle
-* IntelliJ IDEA (Ultimate  Edition)
+* IntelliJ IDEA v2018.1
 * Java
 * Maven
 
@@ -101,7 +101,7 @@ A non-exhaustive list of items can be seen [here](./OPTIONAL_INSTALLS.md)
 * Gulp
 * NodeJS
 * Node Version Manager (`nvm`)
-* WebStorm
+* WebStorm v2018.1
 
 ### Markdown Editor
 
@@ -127,7 +127,7 @@ A non-exhaustive list of items can be seen [here](./OPTIONAL_INSTALLS.md)
 
 ### Python
 
-* PyCharm IDE
+* PyCharm IDE v2018.1
 * Python 3
 
 ### Source Code Management
