@@ -30,6 +30,7 @@ function install_communication_tools() {
 }
 
 function install_database_tools() {
+    brew cask install https://raw.githubusercontent.com/Homebrew/homebrew-cask/b9de053db87cddb3187b82400e19b53ffe454027/Casks/datagrip.rb
     brew cask install pgadmin4
     brew install postgresql
     brew cask install robo-3t

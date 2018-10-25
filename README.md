@@ -75,6 +75,7 @@ A non-exhaustive list of items can be seen [here](./OPTIONAL_INSTALLS.md)
 
 ### Database
 
+* DataGrip v2018.1
 * pgAdmin4 Management Tools for PostgreSQL
 * Postgres
 * Robo-3T (formerly RoboMongo) MongoDB Client
