@@ -158,3 +158,14 @@ cp .inputrc ~/.inputrc
 Occasionally, you will need to use Windows or Internet Explorer, and the easiest way to do this is to install a Windows virtual machine that has Internet Explorer on it.
 
 You can see detailed instructions on this [here](./windows-installation-instructions/Installing_Windows_On_Mac.pdf)
+
+#### [Bash Git Completion](https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion)
+Git-Flow completion
+
+```$xslt
+brew install bash-completion
+```
+* add bash completion to your .bash_profile
+```$xslt
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+```
