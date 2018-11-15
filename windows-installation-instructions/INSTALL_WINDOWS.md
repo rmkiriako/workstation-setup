@@ -113,6 +113,7 @@ Every 30 days you will need to remove the entire virtual machine and re-install.
 
    - Right-click the name and select `Start`
    - Select the virtual machine and click the `Start` button (the big green arrow)
+   - If the virtual machine errors out (blue screen), go to storage, create an IDE controller and move the IE11 - Win7-disk001.vmdk
 
 (16) You may see messages indicating that the keyboard and mouse will be captured in the virtual machine, you can safely close these out by clicking the `X` icon next to them
 
