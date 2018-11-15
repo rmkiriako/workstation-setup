@@ -39,6 +39,7 @@ function install_database_tools() {
 
 function install_file_sharing_tools() {
     brew cask install box-drive
+    brew cask install cyberduck
     brew cask install dropbox
     brew cask install filezilla
     brew cask install google-backup-and-sync
