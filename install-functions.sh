@@ -94,7 +94,7 @@ function install_pdf_tools() {
 }
 
 function install_python_tools() {
-    brew cask install brew cask install https://raw.githubusercontent.com/Homebrew/homebrew-cask/1430bcfbd32ef3e12b151d839f251566517f5f50/Casks/pycharm.rb
+    brew cask install https://raw.githubusercontent.com/Homebrew/homebrew-cask/1430bcfbd32ef3e12b151d839f251566517f5f50/Casks/pycharm.rb
     brew install python3
 }
 
