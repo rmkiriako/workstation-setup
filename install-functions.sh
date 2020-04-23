@@ -119,6 +119,7 @@ function install_text_editors() {
 function install_utilities() {
     brew cask install 1password
     brew cask install android-platform-tools
+    brew cask install cursorcerer
     brew cask install flycut
     brew cask install iterm2
     brew cask install jiggler

@@ -152,6 +152,7 @@ A non-exhaustive list of items can be seen [here](./OPTIONAL_INSTALLS.md)
 
 * 1Password
 * Android Platform Tools
+* Cursorcerer
 * Flycut
 * iTerm 2
 * Jiggler
